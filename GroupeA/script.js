@@ -1,4 +1,3 @@
-let p1 = document.getElementById('p1');
-document.getElementById('p1').addEventListener('mouseover', (e) => {
+document.querySelector('.hover').addEventListener('mouseover', (e) => {
     console.log("WOUAH")
 })

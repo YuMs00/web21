@@ -1,6 +1,5 @@
-let p1 = document.querySelector(".p1");
+let p1 = document.getElementsByClassName("p1");
 
-p1.addEventListener('pointerover', (e) => {
-    console.log(e)
-    p1.classList.add("rotate");
-})
+addEventListener('mouseover', (event) => {
+    console.log(event)
+});

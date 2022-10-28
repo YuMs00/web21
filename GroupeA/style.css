@@ -1,6 +1,11 @@
 li {
     color: red;
 }
+
 img {
     max-width: 30em;
+}
+
+.mousse {
+    color: pink;
 }

@@ -9,3 +9,11 @@
 #p3{
     background-color: rgb(206, 74, 41);
 }
+.rotate {
+    animation: spin infinite 300ms;
+}
+
+@keyframes spin {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
